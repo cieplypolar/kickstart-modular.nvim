@@ -3,7 +3,7 @@
 ## I know what are they doing
 - lazy
 - gitsigns
-- mini (almost)
+- mini
 - autopairs
 - todo-comments
 - which-key
@@ -11,16 +11,19 @@
 - rose-pine
 - neoscroll
 - oil
+- treesitter
+- telescope
+
+## TODO
+- textsitter text object
 
 ## no idea why I need them
+- project.nvim
 - conform
 - lint
-- treesitter
 - lsp
 - indent_line
-- telescope
 - alpha
 - colorizer
 - wakatime
 - debug
-- harpoon??

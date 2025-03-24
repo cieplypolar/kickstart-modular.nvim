@@ -27,14 +27,14 @@ require('lazy').setup({
   require 'plugins.gitsigns',
   -- I will keep it temporarly ;)
   require 'plugins.which-key',
-  -- require 'plugins.telescope',
-  -- require 'plugins.lspconfig',
-  -- require 'plugins.conform',
-  -- require 'plugins.cmp',
+  require 'plugins.telescope',
+  require 'plugins.lspconfig',
+  require 'plugins.conform',
+  require 'plugins.cmp',
   -- require 'plugins.tokyonight',
   require 'plugins.todo-comments',
   require 'plugins.mini',
-  -- require 'plugins.treesitter',
+  require 'plugins.treesitter',
   -- require 'plugins.catppuccin',
   -- require 'plugins.debug',
   -- require 'plugins.indent_line',
@@ -43,6 +43,9 @@ require('lazy').setup({
   -- require 'plugins.neo-tree',
   require 'plugins.oil',
   require 'plugins.neoscroll',
+
+  -- overrides nvim_web_devicons
+  require 'plugins.icons',
 
   -- For additional information with loading, sourcing and examples see `:help lazy.nvim-🔌-plugin-spec`
   -- Or use telescope!
@@ -69,7 +72,7 @@ require('lazy').setup({
       lazy = '💤 ',
     },
   },
-  install = {colorscheme = {'rose-pine-main'}},
+  install = { colorscheme = { 'rose-pine-main' } },
 })
 
 -- vim: ts=2 sts=2 sw=2 et
