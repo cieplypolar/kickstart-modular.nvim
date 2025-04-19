@@ -1,6 +1,5 @@
 return {
   'rose-pine/nvim',
-  enabled = true,
   lazy = false,
   name = 'rose-pine',
   config = function()
